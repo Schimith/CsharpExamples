@@ -1,6 +1,4 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
 
 public class Data {
    public static void Main() {
@@ -15,19 +13,15 @@ public class Data {
 	  //Auxiliar
 	  var workDT = startDT;
   
-	  Console.WriteLine("Lista de dias formato Default..."); 
+	  Console.WriteLine("Data Inicial: " + startDT.ToString("dd/MM/yyyy"));  
+	  Console.WriteLine("Data Final: " + endDT.ToString("dd/MM/yyyy"));  
+	  Console.WriteLine();  
+	   
+	  Console.WriteLine("Lista com incremento de dias formato dd/MM/yyyy..."); 
 	  for (int j=0; j<qtdeDias; j++){
 		  workDT = workDT.AddDays(1);
-		  Console.WriteLine(workDT); 
-		   
-	  }
-	  
-	  Console.WriteLine("Lista de dias formato dd/MM/yyyy..."); 	  
-	  for (int j=0; j<qtdeDias; j++){
-		  workDT = workDT.AddDays(1);
-		  Console.WriteLine(workDT.ToString("dd/MM/yyyy")); 
-		   
-	  }
+		  Console.WriteLine(workDT.ToString("dd/MM/yyyy")); 		   
+	  }	   	  	   
 	  //Mais formatos em 
 	  //https://www.c-sharpcorner.com/blogs/date-and-time-format-in-c-sharp-programming1  	  	  	  	   
    }
