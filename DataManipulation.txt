@@ -1,0 +1,53 @@
+Data Inicial: 18/04/2021-Sun
+Data Final: 25/04/2021-Sun
+Feriado: 22/04/2021-Thu
+
+Lista de dias da funcao ListDays com dia da semana...
+18/04/2021-Sun Dia da semana : 0
+19/04/2021-Mon Dia da semana : 1
+20/04/2021-Tue Dia da semana : 2
+21/04/2021-Wed Dia da semana : 3
+22/04/2021-Thu Dia da semana : 4
+23/04/2021-Fri Dia da semana : 5
+24/04/2021-Sat Dia da semana : 6
+25/04/2021-Sun Dia da semana : 0
+
+Lista de dias da funcao ListDays, exceto feriado unico...
+18/04/2021-Sun
+19/04/2021-Mon
+20/04/2021-Tue
+21/04/2021-Wed
+23/04/2021-Fri
+24/04/2021-Sat
+25/04/2021-Sun
+
+Lista de feriados...
+22/04/2021
+23/04/2021
+
+Lista de dias da funcao ListDays, exceto lista de feriados...
+
+Feriados encontrados : 
+22/04/2021
+23/04/2021
+
+Dia uteis : 
+18/04/2021
+19/04/2021
+20/04/2021
+21/04/2021
+24/04/2021
+25/04/2021
+
+Lista de dias nao usados...
+0
+6
+
+Lista de dias da funcao ListDays, exceto lista de dias da semana nao usados ...
+
+Dia uteis : 
+19/04/2021 Dia da semana : 1
+20/04/2021 Dia da semana : 2
+21/04/2021 Dia da semana : 3
+22/04/2021 Dia da semana : 4
+23/04/2021 Dia da semana : 5
