@@ -72,10 +72,10 @@ public class DataManipulation {
 	  List<DateTime> aux = new List<DateTime>();  
 	  foreach (DateTime day in ListDays(startDT, endDT)){
 		  aux.Add(day);
-      }
+          }
 	   
 	  bool check = feriados.Intersect(ListDays(startDT, endDT)).Any();	   
-      //Console.WriteLine(feriados.Any(x => ListDays(startDT, endDT).Contains(x)));	  
+          //Console.WriteLine(feriados.Any(x => ListDays(startDT, endDT).Contains(x)));	  
 	   
 	  if (check){
 		  Console.WriteLine();
@@ -111,9 +111,9 @@ public class DataManipulation {
 	  List<DateTime> aux2 = new List<DateTime>();  	    	  	   
 	  foreach (DateTime day in ListDays(startDT, endDT)){
 		  aux2.Add(day);	
-      }
+          }
 	   
-      //Remove os dias da semana nao usados
+          //Remove os dias da semana nao usados
 	  foreach (DateTime day in ListDays(startDT, endDT)){			  
 		  foreach (int d in diaDaSemana){
 			  if (d == ((int) day.DayOfWeek))
