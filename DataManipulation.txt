@@ -1,6 +1,19 @@
+Dados do Teste...
+
 Data Inicial: 18/04/2021-Sun
 Data Final: 25/04/2021-Sun
-Feriado: 22/04/2021-Thu
+
+Feriado unico: 22/04/2021-Thu
+
+Lista de feriados...
+22/04/2021
+23/04/2021
+
+Lista de dias nao usados : (0-Sun, 1-Mon, 2-Tue, 3-Wed, 4-Thu, 5-Fri, 6-Sat)
+0
+6
+
+-------------------------------------------------------------------------
 
 Lista de dias da funcao ListDays com dia da semana...
 18/04/2021-Sun Dia da semana : 0
@@ -21,10 +34,6 @@ Lista de dias da funcao ListDays, exceto feriado unico...
 24/04/2021-Sat
 25/04/2021-Sun
 
-Lista de feriados...
-22/04/2021
-23/04/2021
-
 Lista de dias da funcao ListDays, exceto lista de feriados...
 
 Feriados encontrados : 
@@ -39,10 +48,6 @@ Dia uteis :
 24/04/2021
 25/04/2021
 
-Lista de dias nao usados...
-0
-6
-
 Lista de dias da funcao ListDays, exceto lista de dias da semana nao usados ...
 
 Dia uteis : 
@@ -51,3 +56,19 @@ Dia uteis :
 21/04/2021 Dia da semana : 3
 22/04/2021 Dia da semana : 4
 23/04/2021 Dia da semana : 5
+
+Lista de dias da funcao ListDays, exceto lista de feriados e dias da semana nao usados ...
+
+Lista de dias nao usados : (0-Sun, 1-Mon, 2-Tue, 3-Wed, 4-Thu, 5-Fri, 6-Sat)
+0
+6
+
+Feriados encontrados : 
+22/04/2021
+23/04/2021
+
+Dia uteis : 
+19/04/2021 Dia ID :1
+20/04/2021 Dia ID :2
+21/04/2021 Dia ID :3
+Removido feriados e dias nao usados da lista.
