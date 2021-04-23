@@ -4,6 +4,7 @@ using System.Collections.Generic;
 //HashSet - contém um lista não ordenada de itens distintos;
 //SortedSet - contém uma lista ordenada de itens distintos;
 //Nao foi necessario o metodo Intersect da biblioteca System.Linq
+//Perfomance - https://stackoverflow.com/questions/61547382/fast-intersection-of-hashsetint-and-listint
 
 public class Program
 {
