@@ -1,0 +1,20 @@
+Lista de dias
+21/04/2021
+23/04/2021
+
+Lista de feriados
+21/04/2021
+22/04/2021
+22/04/2021
+23/04/2021
+24/04/2021
+
+Lista distinta de feriados com HashSet
+21/04/2021
+22/04/2021
+23/04/2021
+24/04/2021
+
+Interseção de Lista entre dias e feriados com HashSet
+21/04/2021
+23/04/2021
