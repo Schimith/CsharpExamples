@@ -16,7 +16,7 @@ public class Program
 		HashSet<DateTime> distinct = new HashSet<DateTime>( feriados );
 		
 		//Lista de dias
-        HashSet<DateTime> dias = new HashSet<DateTime>() { new DateTime(2021, 4, 21), new DateTime(2021, 4, 23) };		
+       		HashSet<DateTime> dias = new HashSet<DateTime>() { new DateTime(2021, 4, 21), new DateTime(2021, 4, 23) };		
 		
 		Console.WriteLine("Lista de dias");  
 	  	foreach (DateTime day in dias) {
