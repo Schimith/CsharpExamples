@@ -185,6 +185,27 @@ public class DataManipulation {
 	  } 
 	   	  	  	  	  
 	  Console.WriteLine(); 		
+	  
+	  //------------------------------------------------------------------------- 	  
+	  Console.WriteLine("Lista de dias com distinct ..."); 
+	  
+	  List<DateTime> listaDias = new List<DateTime>() { new DateTime(2021, 4, 21), new DateTime(2021, 4, 22), new DateTime(2021, 4, 22), new DateTime(2021, 4, 23) }; 	
+	  
+	  Console.WriteLine(); 		
+	   
+	  Console.WriteLine("Lista de dias com objetos repetidos...");  
+	  foreach (DateTime day in listaDias){		    		  
+		  Console.WriteLine(day.ToString("dd/MM/yyyy-ddd") + " Dia da semana : " + (int) day.DayOfWeek);		  
+	  } 
+	  
+	  IEnumerable<DateTime> distinct = listaDias.Distinct() ;
+	   
+	  Console.WriteLine(); 
+	  
+	  Console.WriteLine("Lista de dias com distinct...");  
+	  foreach (DateTime day in distinct){		    		  
+		  Console.WriteLine(day.ToString("dd/MM/yyyy-ddd") + " Dia da semana : " + (int) day.DayOfWeek);		  
+	  }  
 	   
 	  //Exemplos
 	  //https://docs.microsoft.com/pt-br/dotnet/api/system.datetime.compare?view=net-5.0
