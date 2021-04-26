@@ -1,3 +1,4 @@
+-------------------------------------------------------------------------
 Dados do Teste...
 
 Data Inicial: 18/04/2021-Sun
@@ -72,3 +73,16 @@ Dia uteis :
 20/04/2021 Dia ID :2
 21/04/2021 Dia ID :3
 Removido feriados e dias nao usados da lista.
+
+Lista de dias com distinct ...
+
+Lista de dias com objetos repetidos...
+21/04/2021-Wed Dia da semana : 3
+22/04/2021-Thu Dia da semana : 4
+22/04/2021-Thu Dia da semana : 4
+23/04/2021-Fri Dia da semana : 5
+
+Lista de dias com distinct...
+21/04/2021-Wed Dia da semana : 3
+22/04/2021-Thu Dia da semana : 4
+23/04/2021-Fri Dia da semana : 5
