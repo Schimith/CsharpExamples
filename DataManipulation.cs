@@ -187,7 +187,7 @@ public class DataManipulation {
 	  Console.WriteLine(); 		
 	  
 	  //------------------------------------------------------------------------- 	  
-	  Console.WriteLine("Lista de dias com distinct ..."); 
+	  Console.WriteLine("Lista de dias com metodo distinct ..."); 
 	  
 	  List<DateTime> listaDias = new List<DateTime>() { new DateTime(2021, 4, 21), new DateTime(2021, 4, 22), new DateTime(2021, 4, 22), new DateTime(2021, 4, 23) }; 	
 	  
@@ -205,7 +205,39 @@ public class DataManipulation {
 	  Console.WriteLine("Lista de dias com distinct...");  
 	  foreach (DateTime day in distinct){		    		  
 		  Console.WriteLine(day.ToString("dd/MM/yyyy-ddd") + " Dia da semana : " + (int) day.DayOfWeek);		  
-	  }  
+	  }
+	  Console.WriteLine(); 	 
+	   
+	  //------------------------------------------------------------------------- 	  
+	  Console.WriteLine("Lista de dias exceto a data atual ..."); 
+	  
+	  List<DateTime> listaDatas = new List<DateTime>() { new DateTime(2021, 5, 09), new DateTime(2021, 5, 10), new DateTime(2021, 5, 11), new DateTime(2021, 5, 12) }; 	
+
+	  DateTime hoje = DateTime.Today;	 
+	   
+	  Console.WriteLine(); 		
+	   
+	  Console.WriteLine("Lista de dias completos...");  
+	  foreach (DateTime day in listaDatas){		    		  
+		  Console.WriteLine(day.ToString("dd/MM/yyyy-ddd") + " Dia da semana : " + (int) day.DayOfWeek);		  
+	  } 
+	   	   
+	  Console.WriteLine(); 
+	  
+	  Console.WriteLine("Data atual...");   
+	  Console.WriteLine(hoje.ToString("dd/MM/yyyy-ddd") + " Dia da semana : " + (int) hoje.DayOfWeek);		   
+	  Console.WriteLine(); 
+	  
+	  Console.WriteLine("Lista de dias maiores que a data atual..."); 
+	  foreach (DateTime day in listaDatas){		  
+  		  //Retorna inteiro 0 ou 1
+		  int result = DateTime.Compare(hoje, day); 
+
+		  //Verifica se a data em lista é menor que a data atual		  
+		  if (result >= 0)
+			  continue;			  
+		  Console.WriteLine(day.ToString("dd/MM/yyyy-ddd"));		  
+	  }    	   
 	   
 	  //Exemplos
 	  //https://docs.microsoft.com/pt-br/dotnet/api/system.datetime.compare?view=net-5.0
