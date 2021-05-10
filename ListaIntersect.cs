@@ -15,8 +15,8 @@ public class ListaIntersect
 			Console.WriteLine(product);
 		
 		var listB = new List<int>{3, 4, 5};  
-        var listA = new List<int>{1, 2, 3, 4, 5};
-        var listFinal = listA.Intersect(listB);
+        	var listA = new List<int>{1, 2, 3, 4, 5};
+       		var listFinal = listA.Intersect(listB);
 		
 		foreach (var product in listFinal)
 			Console.WriteLine(product);
