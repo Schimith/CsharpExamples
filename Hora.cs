@@ -7,9 +7,9 @@ public class Program
 		String horaFim = "1300";
 				 
 		//Timezone 
-       	DateTime DateTimeUtc = DateTime.UtcNow;
-    	TimeZoneInfo TimeZoneInfo = TimeZoneInfo.FindSystemTimeZoneById("E. South America Standard Time");//(GMT-03:00) Brasília
-    	DateTime DatetimeBrasilia = TimeZoneInfo.ConvertTimeFromUtc(DateTimeUtc, TimeZoneInfo);
+       		DateTime DateTimeUtc = DateTime.UtcNow;
+    		TimeZoneInfo TimeZoneInfo = TimeZoneInfo.FindSystemTimeZoneById("E. South America Standard Time");//(GMT-03:00) Brasília
+    		DateTime DatetimeBrasilia = TimeZoneInfo.ConvertTimeFromUtc(DateTimeUtc, TimeZoneInfo);
 		
 		String horaAgora = DatetimeBrasilia.Hour.ToString() + DatetimeBrasilia.Minute.ToString(); 
 		//String horaAgora = "129";//Teste
